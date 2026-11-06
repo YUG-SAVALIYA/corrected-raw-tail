@@ -1,0 +1,18 @@
+# Isolated, reproducibility-only rebuild of the raw-tail feature/label inputs.
+normalized_path: ../artifacts/nifty_phase1/normalized_ohlcv.parquet
+output_dir: ../artifacts/audit_rebuild_phase2_higher_timeframe_market_index
+epsilon: 0.0
+doji_policy: exclude
+enabled_feature_groups:
+  - candle_anatomy
+  - momentum
+  - trend
+  - volatility
+  - volume
+  - relative_strength
+  - calendar
+  - higher_timeframe
+  - market_index
+market_index_paths:
+  nifty50: ../top_200_files/content/drive/MyDrive/All_Data/nifty50_daily_candles.csv
+  niftybank: ../top_200_files/content/drive/MyDrive/All_Data/nifty_bank_daily_candles.csv

@@ -1,0 +1,96 @@
+# ==============================================================================
+# Git Ignore Configuration
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. Byte-compiled / optimized / runtime Python files
+# ------------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+
+# ------------------------------------------------------------------------------
+# 2. Virtual Environments
+# ------------------------------------------------------------------------------
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ------------------------------------------------------------------------------
+# 3. Packaging, Distribution & Builds
+# ------------------------------------------------------------------------------
+build/
+dist/
+eggs/
+.eggs/
+*.egg-info/
+*.egg
+develop-eggs/
+downloads/
+parts/
+var/
+sdist/
+wheels/
+pip-wheel-metadata/
+
+# ------------------------------------------------------------------------------
+# 4. Large Dataset & Intermediate Artifacts (Rebuildable per README)
+# ------------------------------------------------------------------------------
+# Exclude multi-gigabyte feature matrices and large raw OHLCV datasets
+artifacts/nifty_phase1/normalized_ohlcv.parquet
+artifacts/nifty_phase2_higher_timeframe_market_index/features.parquet
+artifacts/nifty_phase2_higher_timeframe_market_index/labels.parquet
+artifacts/audit_rebuild_phase2_higher_timeframe_market_index/
+
+# Exclude local retrained experiments (original models in nifty_hgb_* are kept)
+artifacts/retrained_*/
+
+# Data files & databases
+*.duckdb
+*.duckdb.wal
+
+# ------------------------------------------------------------------------------
+# 5. Local Scratch, Experiments & Logs
+# ------------------------------------------------------------------------------
+scratch/
+temp/
+tmp/
+*.log
+*.tmp
+
+# ------------------------------------------------------------------------------
+# 6. Testing, Linting & Coverage
+# ------------------------------------------------------------------------------
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# ------------------------------------------------------------------------------
+# 7. IDE & Editor Metadata
+# ------------------------------------------------------------------------------
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# ------------------------------------------------------------------------------
+# 8. Operating System Specific Files
+# ------------------------------------------------------------------------------
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+.DS_Store
+._*
+

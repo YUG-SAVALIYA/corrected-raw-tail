@@ -1,0 +1,19 @@
+key,model_portfolio,allocation_per_position,exit_rule,Total return (%),Sum gross trade returns (%),Sum net trade returns (%),CAGR (%),Max drawdown (%),Sharpe,Trades,Positive trades,Negative trades,Win rate (%),Trade profit factor,Avg. net/trade (%),Target / stop / close exits,Same-day TP/SL collisions,TP/SL collision rate (%),Selected signal days
+baseline__alloc20__SL_5%___close_exit,Baseline q99.97,0.2,SL 5% / close exit,1364.37,1700.49,1383.83,48.51,-6.91,3.714,558,394,164,70.61,2.815,2.48,0 / 128 / 430,0,0.0,415
+baseline__alloc20__SL_10%___close_exit,Baseline q99.97,0.2,SL 10% / close exit,2049.82,1919.99,1591.16,57.15,-9.88,4.113,558,423,135,75.81,3.514,2.852,0 / 33 / 525,0,0.0,415
+baseline__alloc20__SL_4%___TP_8%_(conservative),Baseline q99.97,0.2,SL 4% / TP 8% (conservative),1202.81,1607.38,1316.85,45.97,-5.42,3.738,558,372,186,66.67,2.721,2.36,160 / 163 / 235,11,1.97,415
+baseline__alloc33__SL_5%___close_exit,Baseline q99.97,0.33,SL 5% / close exit,4915.68,1700.49,1383.83,78.04,-10.83,3.477,558,394,164,70.61,2.436,2.48,0 / 128 / 430,0,0.0,415
+baseline__alloc33__SL_10%___close_exit,Baseline q99.97,0.33,SL 10% / close exit,7434.04,1919.99,1591.16,89.04,-15.97,3.769,558,423,135,75.81,2.833,2.852,0 / 33 / 525,0,0.0,415
+baseline__alloc33__SL_4%___TP_8%_(conservative),Baseline q99.97,0.33,SL 4% / TP 8% (conservative),4382.3,1607.38,1316.85,75.12,-9.16,3.556,558,372,186,66.67,2.431,2.36,160 / 163 / 235,11,1.97,415
+raw_tail__alloc20__SL_5%___close_exit,Corrected raw-tail q99.97,0.2,SL 5% / close exit,265.85,844.17,660.99,21.06,-6.19,2.302,339,227,112,66.96,2.323,1.95,0 / 85 / 254,0,0.0,210
+raw_tail__alloc20__SL_10%___close_exit,Corrected raw-tail q99.97,0.2,SL 10% / close exit,277.36,879.84,678.66,21.61,-6.14,2.183,339,242,97,71.39,2.359,2.002,0 / 35 / 304,0,0.0,210
+raw_tail__alloc20__SL_4%___TP_8%_(conservative),Corrected raw-tail q99.97,0.2,SL 4% / TP 8% (conservative),263.28,818.69,655.62,20.93,-5.04,2.478,339,219,120,64.6,2.363,1.934,74 / 100 / 165,7,2.06,210
+raw_tail__alloc33__SL_5%___close_exit,Corrected raw-tail q99.97,0.33,SL 5% / close exit,698.31,844.17,660.99,35.81,-10.09,2.284,339,227,112,66.96,2.25,1.95,0 / 85 / 254,0,0.0,210
+raw_tail__alloc33__SL_10%___close_exit,Corrected raw-tail q99.97,0.33,SL 10% / close exit,739.12,879.84,678.66,36.81,-10.03,2.17,339,242,97,71.39,2.335,2.002,0 / 35 / 304,0,0.0,210
+raw_tail__alloc33__SL_4%___TP_8%_(conservative),Corrected raw-tail q99.97,0.33,SL 4% / TP 8% (conservative),702.66,818.69,655.62,35.92,-8.22,2.464,339,219,120,64.6,2.276,1.934,74 / 100 / 165,7,2.06,210
+merged__alloc20__SL_5%___close_exit,Priority merge: Baseline then raw-tail,0.2,SL 5% / close exit,2702.43,2194.56,1759.87,63.41,-8.46,3.963,790,544,246,68.86,2.391,2.228,0 / 185 / 605,0,0.0,523
+merged__alloc20__SL_10%___close_exit,Priority merge: Baseline then raw-tail,0.2,SL 10% / close exit,3846.28,2421.47,1961.28,71.86,-10.12,4.176,790,583,207,73.8,2.725,2.483,0 / 58 / 732,0,0.0,523
+merged__alloc20__SL_4%___TP_8%_(conservative),Priority merge: Baseline then raw-tail,0.2,SL 4% / TP 8% (conservative),2432.52,2083.14,1687.84,60.99,-5.23,4.075,790,517,273,65.44,2.34,2.137,200 / 232 / 358,15,1.9,523
+merged__alloc33__SL_5%___close_exit,Priority merge: Baseline then raw-tail,0.33,SL 5% / close exit,9722.6,2194.56,1759.87,96.58,-12.67,3.602,790,544,246,68.86,1.948,2.228,0 / 185 / 605,0,0.0,523
+merged__alloc33__SL_10%___close_exit,Priority merge: Baseline then raw-tail,0.33,SL 10% / close exit,13319.16,2421.47,1961.28,105.82,-15.97,3.737,790,583,207,73.8,2.12,2.483,0 / 58 / 732,0,0.0,523
+merged__alloc33__SL_4%___TP_8%_(conservative),Priority merge: Baseline then raw-tail,0.33,SL 4% / TP 8% (conservative),9191.62,2083.14,1687.84,94.97,-8.43,3.759,790,517,273,65.44,1.987,2.137,200 / 232 / 358,15,1.9,523

@@ -1,0 +1,127 @@
+key,model_portfolio,allocation_per_position,exit_rule,year,trades,positive,negative,win_rate_pct,profit_factor,avg_net_trade_pct,return_pct,max_drawdown_pct
+baseline__alloc20__SL_5%___close_exit,Baseline q99.97,0.2,SL 5% / close exit,2020,78,67,11,85.9,7.645,4.093,88.0,-2.05
+baseline__alloc20__SL_5%___close_exit,Baseline q99.97,0.2,SL 5% / close exit,2021,116,79,37,68.1,2.665,2.219,66.0,-3.93
+baseline__alloc20__SL_5%___close_exit,Baseline q99.97,0.2,SL 5% / close exit,2022,77,48,29,62.34,2.075,1.865,32.21,-5.09
+baseline__alloc20__SL_5%___close_exit,Baseline q99.97,0.2,SL 5% / close exit,2023,52,36,16,69.23,2.52,2.188,25.16,-2.27
+baseline__alloc20__SL_5%___close_exit,Baseline q99.97,0.2,SL 5% / close exit,2024,78,51,27,65.38,2.048,1.65,28.67,-6.72
+baseline__alloc20__SL_5%___close_exit,Baseline q99.97,0.2,SL 5% / close exit,2025,48,32,16,66.67,2.699,2.284,24.17,-3.56
+baseline__alloc20__SL_5%___close_exit,Baseline q99.97,0.2,SL 5% / close exit,2026,109,81,28,74.31,3.399,2.857,77.49,-3.07
+baseline__alloc20__SL_10%___close_exit,Baseline q99.97,0.2,SL 10% / close exit,2020,78,69,9,88.46,8.843,4.267,93.12,-2.83
+baseline__alloc20__SL_10%___close_exit,Baseline q99.97,0.2,SL 10% / close exit,2021,116,85,31,73.28,3.821,2.745,87.43,-5.42
+baseline__alloc20__SL_10%___close_exit,Baseline q99.97,0.2,SL 10% / close exit,2022,77,55,22,71.43,2.432,2.308,41.41,-8.08
+baseline__alloc20__SL_10%___close_exit,Baseline q99.97,0.2,SL 10% / close exit,2023,52,40,12,76.92,2.974,2.664,31.38,-4.06
+baseline__alloc20__SL_10%___close_exit,Baseline q99.97,0.2,SL 10% / close exit,2024,78,54,24,69.23,2.586,2.063,37.2,-8.47
+baseline__alloc20__SL_10%___close_exit,Baseline q99.97,0.2,SL 10% / close exit,2025,48,34,14,70.83,2.894,2.367,24.88,-2.74
+baseline__alloc20__SL_10%___close_exit,Baseline q99.97,0.2,SL 10% / close exit,2026,109,86,23,78.9,4.581,3.203,86.58,-2.88
+baseline__alloc20__SL_4%___TP_8%_(conservative),Baseline q99.97,0.2,SL 4% / TP 8% (conservative),2020,78,64,14,82.05,6.738,4.006,85.44,-1.66
+baseline__alloc20__SL_4%___TP_8%_(conservative),Baseline q99.97,0.2,SL 4% / TP 8% (conservative),2021,116,73,43,62.93,2.365,1.868,53.24,-3.48
+baseline__alloc20__SL_4%___TP_8%_(conservative),Baseline q99.97,0.2,SL 4% / TP 8% (conservative),2022,77,48,29,62.34,2.586,2.249,40.37,-4.1
+baseline__alloc20__SL_4%___TP_8%_(conservative),Baseline q99.97,0.2,SL 4% / TP 8% (conservative),2023,52,35,17,67.31,3.051,2.683,31.73,-1.68
+baseline__alloc20__SL_4%___TP_8%_(conservative),Baseline q99.97,0.2,SL 4% / TP 8% (conservative),2024,78,46,32,58.97,1.852,1.379,23.45,-3.82
+baseline__alloc20__SL_4%___TP_8%_(conservative),Baseline q99.97,0.2,SL 4% / TP 8% (conservative),2025,48,29,19,60.42,2.544,2.078,21.79,-2.78
+baseline__alloc20__SL_4%___TP_8%_(conservative),Baseline q99.97,0.2,SL 4% / TP 8% (conservative),2026,109,77,32,70.64,3.124,2.456,64.91,-3.56
+baseline__alloc33__SL_5%___close_exit,Baseline q99.97,0.33,SL 5% / close exit,2020,78,67,11,85.9,7.601,4.093,181.25,-3.38
+baseline__alloc33__SL_5%___close_exit,Baseline q99.97,0.33,SL 5% / close exit,2021,116,79,37,68.1,2.664,2.219,128.2,-6.43
+baseline__alloc33__SL_5%___close_exit,Baseline q99.97,0.33,SL 5% / close exit,2022,77,48,29,62.34,2.059,1.865,54.14,-8.32
+baseline__alloc33__SL_5%___close_exit,Baseline q99.97,0.33,SL 5% / close exit,2023,52,36,16,69.23,2.586,2.188,44.35,-3.41
+baseline__alloc33__SL_5%___close_exit,Baseline q99.97,0.33,SL 5% / close exit,2024,78,51,27,65.38,2.014,1.65,49.52,-10.52
+baseline__alloc33__SL_5%___close_exit,Baseline q99.97,0.33,SL 5% / close exit,2025,48,32,16,66.67,2.701,2.284,36.69,-3.98
+baseline__alloc33__SL_5%___close_exit,Baseline q99.97,0.33,SL 5% / close exit,2026,109,81,28,74.31,2.48,2.857,71.86,-5.05
+baseline__alloc33__SL_10%___close_exit,Baseline q99.97,0.33,SL 10% / close exit,2020,78,69,9,88.46,8.365,4.267,193.88,-4.66
+baseline__alloc33__SL_10%___close_exit,Baseline q99.97,0.33,SL 10% / close exit,2021,116,85,31,73.28,3.752,2.745,176.7,-8.88
+baseline__alloc33__SL_10%___close_exit,Baseline q99.97,0.33,SL 10% / close exit,2022,77,55,22,71.43,2.424,2.308,70.86,-13.11
+baseline__alloc33__SL_10%___close_exit,Baseline q99.97,0.33,SL 10% / close exit,2023,52,40,12,76.92,2.598,2.664,46.14,-6.71
+baseline__alloc33__SL_10%___close_exit,Baseline q99.97,0.33,SL 10% / close exit,2024,78,54,24,69.23,2.441,2.063,63.3,-13.87
+baseline__alloc33__SL_10%___close_exit,Baseline q99.97,0.33,SL 10% / close exit,2025,48,34,14,70.83,2.54,2.367,28.64,-3.9
+baseline__alloc33__SL_10%___close_exit,Baseline q99.97,0.33,SL 10% / close exit,2026,109,86,23,78.9,3.142,3.203,76.64,-4.74
+baseline__alloc33__SL_4%___TP_8%_(conservative),Baseline q99.97,0.33,SL 4% / TP 8% (conservative),2020,78,64,14,82.05,6.709,4.006,174.93,-2.73
+baseline__alloc33__SL_4%___TP_8%_(conservative),Baseline q99.97,0.33,SL 4% / TP 8% (conservative),2021,116,73,43,62.93,2.385,1.868,100.82,-5.69
+baseline__alloc33__SL_4%___TP_8%_(conservative),Baseline q99.97,0.33,SL 4% / TP 8% (conservative),2022,77,48,29,62.34,2.568,2.249,69.45,-6.69
+baseline__alloc33__SL_4%___TP_8%_(conservative),Baseline q99.97,0.33,SL 4% / TP 8% (conservative),2023,52,35,17,67.31,3.188,2.683,57.41,-2.74
+baseline__alloc33__SL_4%___TP_8%_(conservative),Baseline q99.97,0.33,SL 4% / TP 8% (conservative),2024,78,46,32,58.97,1.828,1.379,39.72,-6.01
+baseline__alloc33__SL_4%___TP_8%_(conservative),Baseline q99.97,0.33,SL 4% / TP 8% (conservative),2025,48,29,19,60.42,2.504,2.078,32.7,-4.66
+baseline__alloc33__SL_4%___TP_8%_(conservative),Baseline q99.97,0.33,SL 4% / TP 8% (conservative),2026,109,77,32,70.64,2.475,2.456,64.16,-4.95
+raw_tail__alloc20__SL_5%___close_exit,Corrected raw-tail q99.97,0.2,SL 5% / close exit,2020,0,0,0,,,,0.0,0.0
+raw_tail__alloc20__SL_5%___close_exit,Corrected raw-tail q99.97,0.2,SL 5% / close exit,2021,7,7,0,100.0,,5.226,7.53,0.0
+raw_tail__alloc20__SL_5%___close_exit,Corrected raw-tail q99.97,0.2,SL 5% / close exit,2022,50,34,16,68.0,2.871,2.404,26.57,-3.42
+raw_tail__alloc20__SL_5%___close_exit,Corrected raw-tail q99.97,0.2,SL 5% / close exit,2023,82,54,28,65.85,2.078,1.654,30.37,-3.51
+raw_tail__alloc20__SL_5%___close_exit,Corrected raw-tail q99.97,0.2,SL 5% / close exit,2024,63,46,17,73.02,2.524,1.954,27.39,-3.41
+raw_tail__alloc20__SL_5%___close_exit,Corrected raw-tail q99.97,0.2,SL 5% / close exit,2025,70,41,29,58.57,2.035,1.645,25.35,-3.65
+raw_tail__alloc20__SL_5%___close_exit,Corrected raw-tail q99.97,0.2,SL 5% / close exit,2026,67,45,22,67.16,2.373,1.944,29.12,-6.19
+raw_tail__alloc20__SL_10%___close_exit,Corrected raw-tail q99.97,0.2,SL 10% / close exit,2020,0,0,0,,,,0.0,0.0
+raw_tail__alloc20__SL_10%___close_exit,Corrected raw-tail q99.97,0.2,SL 10% / close exit,2021,7,7,0,100.0,,5.226,7.53,0.0
+raw_tail__alloc20__SL_10%___close_exit,Corrected raw-tail q99.97,0.2,SL 10% / close exit,2022,50,34,16,68.0,2.208,2.054,22.06,-5.97
+raw_tail__alloc20__SL_10%___close_exit,Corrected raw-tail q99.97,0.2,SL 10% / close exit,2023,82,60,22,73.17,1.886,1.671,30.57,-5.59
+raw_tail__alloc20__SL_10%___close_exit,Corrected raw-tail q99.97,0.2,SL 10% / close exit,2024,63,48,15,76.19,2.884,2.187,31.12,-4.32
+raw_tail__alloc20__SL_10%___close_exit,Corrected raw-tail q99.97,0.2,SL 10% / close exit,2025,70,43,27,61.43,2.148,1.755,27.18,-3.8
+raw_tail__alloc20__SL_10%___close_exit,Corrected raw-tail q99.97,0.2,SL 10% / close exit,2026,67,50,17,74.63,2.587,2.115,32.05,-6.14
+raw_tail__alloc20__SL_4%___TP_8%_(conservative),Corrected raw-tail q99.97,0.2,SL 4% / TP 8% (conservative),2020,0,0,0,,,,0.0,0.0
+raw_tail__alloc20__SL_4%___TP_8%_(conservative),Corrected raw-tail q99.97,0.2,SL 4% / TP 8% (conservative),2021,7,7,0,100.0,,6.794,9.88,0.0
+raw_tail__alloc20__SL_4%___TP_8%_(conservative),Corrected raw-tail q99.97,0.2,SL 4% / TP 8% (conservative),2022,50,33,17,66.0,2.631,2.188,23.93,-2.59
+raw_tail__alloc20__SL_4%___TP_8%_(conservative),Corrected raw-tail q99.97,0.2,SL 4% / TP 8% (conservative),2023,82,52,30,63.41,2.289,1.764,32.86,-2.72
+raw_tail__alloc20__SL_4%___TP_8%_(conservative),Corrected raw-tail q99.97,0.2,SL 4% / TP 8% (conservative),2024,63,46,17,73.02,3.271,2.352,33.92,-2.82
+raw_tail__alloc20__SL_4%___TP_8%_(conservative),Corrected raw-tail q99.97,0.2,SL 4% / TP 8% (conservative),2025,70,39,31,55.71,1.95,1.449,22.06,-2.98
+raw_tail__alloc20__SL_4%___TP_8%_(conservative),Corrected raw-tail q99.97,0.2,SL 4% / TP 8% (conservative),2026,67,42,25,62.69,2.142,1.559,22.84,-5.04
+raw_tail__alloc33__SL_5%___close_exit,Corrected raw-tail q99.97,0.33,SL 5% / close exit,2020,0,0,0,,,,0.0,0.0
+raw_tail__alloc33__SL_5%___close_exit,Corrected raw-tail q99.97,0.33,SL 5% / close exit,2021,7,7,0,100.0,,5.226,12.66,0.0
+raw_tail__alloc33__SL_5%___close_exit,Corrected raw-tail q99.97,0.33,SL 5% / close exit,2022,50,34,16,68.0,2.857,2.404,46.78,-5.62
+raw_tail__alloc33__SL_5%___close_exit,Corrected raw-tail q99.97,0.33,SL 5% / close exit,2023,82,54,28,65.85,2.058,1.654,53.9,-5.78
+raw_tail__alloc33__SL_5%___close_exit,Corrected raw-tail q99.97,0.33,SL 5% / close exit,2024,63,46,17,73.02,2.502,1.954,48.46,-5.58
+raw_tail__alloc33__SL_5%___close_exit,Corrected raw-tail q99.97,0.33,SL 5% / close exit,2025,70,41,29,58.57,2.042,1.645,45.35,-5.47
+raw_tail__alloc33__SL_5%___close_exit,Corrected raw-tail q99.97,0.33,SL 5% / close exit,2026,67,45,22,67.16,2.249,1.944,45.37,-10.09
+raw_tail__alloc33__SL_10%___close_exit,Corrected raw-tail q99.97,0.33,SL 10% / close exit,2020,0,0,0,,,,0.0,0.0
+raw_tail__alloc33__SL_10%___close_exit,Corrected raw-tail q99.97,0.33,SL 10% / close exit,2021,7,7,0,100.0,,5.226,12.66,0.0
+raw_tail__alloc33__SL_10%___close_exit,Corrected raw-tail q99.97,0.33,SL 10% / close exit,2022,50,34,16,68.0,2.168,2.054,38.04,-9.73
+raw_tail__alloc33__SL_10%___close_exit,Corrected raw-tail q99.97,0.33,SL 10% / close exit,2023,82,60,22,73.17,1.849,1.671,54.12,-9.12
+raw_tail__alloc33__SL_10%___close_exit,Corrected raw-tail q99.97,0.33,SL 10% / close exit,2024,63,48,15,76.19,2.823,2.187,55.6,-7.07
+raw_tail__alloc33__SL_10%___close_exit,Corrected raw-tail q99.97,0.33,SL 10% / close exit,2025,70,43,27,61.43,2.194,1.755,49.5,-5.18
+raw_tail__alloc33__SL_10%___close_exit,Corrected raw-tail q99.97,0.33,SL 10% / close exit,2026,67,50,17,74.63,2.481,2.115,50.51,-10.03
+raw_tail__alloc33__SL_4%___TP_8%_(conservative),Corrected raw-tail q99.97,0.33,SL 4% / TP 8% (conservative),2020,0,0,0,,,,0.0,0.0
+raw_tail__alloc33__SL_4%___TP_8%_(conservative),Corrected raw-tail q99.97,0.33,SL 4% / TP 8% (conservative),2021,7,7,0,100.0,,6.794,16.72,0.0
+raw_tail__alloc33__SL_4%___TP_8%_(conservative),Corrected raw-tail q99.97,0.33,SL 4% / TP 8% (conservative),2022,50,33,17,66.0,2.6,2.188,41.85,-4.27
+raw_tail__alloc33__SL_4%___TP_8%_(conservative),Corrected raw-tail q99.97,0.33,SL 4% / TP 8% (conservative),2023,82,52,30,63.41,2.263,1.764,58.92,-4.48
+raw_tail__alloc33__SL_4%___TP_8%_(conservative),Corrected raw-tail q99.97,0.33,SL 4% / TP 8% (conservative),2024,63,46,17,73.02,3.242,2.352,61.2,-4.63
+raw_tail__alloc33__SL_4%___TP_8%_(conservative),Corrected raw-tail q99.97,0.33,SL 4% / TP 8% (conservative),2025,70,39,31,55.71,1.961,1.449,39.21,-4.37
+raw_tail__alloc33__SL_4%___TP_8%_(conservative),Corrected raw-tail q99.97,0.33,SL 4% / TP 8% (conservative),2026,67,42,25,62.69,2.073,1.559,35.94,-8.22
+merged__alloc20__SL_5%___close_exit,Priority merge: Baseline then raw-tail,0.2,SL 5% / close exit,2020,78,67,11,85.9,7.645,4.093,88.0,-2.05
+merged__alloc20__SL_5%___close_exit,Priority merge: Baseline then raw-tail,0.2,SL 5% / close exit,2021,120,83,37,69.17,2.769,2.282,71.52,-3.93
+merged__alloc20__SL_5%___close_exit,Priority merge: Baseline then raw-tail,0.2,SL 5% / close exit,2022,106,67,39,63.21,2.322,1.999,51.14,-5.06
+merged__alloc20__SL_5%___close_exit,Priority merge: Baseline then raw-tail,0.2,SL 5% / close exit,2023,118,79,39,66.95,2.23,1.874,54.04,-3.51
+merged__alloc20__SL_5%___close_exit,Priority merge: Baseline then raw-tail,0.2,SL 5% / close exit,2024,125,87,38,69.6,2.344,1.894,59.16,-8.46
+merged__alloc20__SL_5%___close_exit,Priority merge: Baseline then raw-tail,0.2,SL 5% / close exit,2025,98,61,37,62.24,2.311,1.891,44.19,-3.31
+merged__alloc20__SL_5%___close_exit,Priority merge: Baseline then raw-tail,0.2,SL 5% / close exit,2026,145,100,45,68.97,2.382,2.15,62.66,-3.48
+merged__alloc20__SL_10%___close_exit,Priority merge: Baseline then raw-tail,0.2,SL 10% / close exit,2020,78,69,9,88.46,8.843,4.267,93.12,-2.83
+merged__alloc20__SL_10%___close_exit,Priority merge: Baseline then raw-tail,0.2,SL 10% / close exit,2021,120,89,31,74.17,3.958,2.791,93.64,-5.42
+merged__alloc20__SL_10%___close_exit,Priority merge: Baseline then raw-tail,0.2,SL 10% / close exit,2022,106,74,32,69.81,2.468,2.238,58.71,-7.98
+merged__alloc20__SL_10%___close_exit,Priority merge: Baseline then raw-tail,0.2,SL 10% / close exit,2023,118,87,31,73.73,2.077,1.951,56.08,-4.06
+merged__alloc20__SL_10%___close_exit,Priority merge: Baseline then raw-tail,0.2,SL 10% / close exit,2024,125,91,34,72.8,2.68,2.169,70.27,-10.12
+merged__alloc20__SL_10%___close_exit,Priority merge: Baseline then raw-tail,0.2,SL 10% / close exit,2025,98,64,34,65.31,2.575,2.007,47.78,-2.94
+merged__alloc20__SL_10%___close_exit,Priority merge: Baseline then raw-tail,0.2,SL 10% / close exit,2026,145,109,36,75.17,2.942,2.471,69.3,-6.14
+merged__alloc20__SL_4%___TP_8%_(conservative),Priority merge: Baseline then raw-tail,0.2,SL 4% / TP 8% (conservative),2020,78,64,14,82.05,6.738,4.006,85.44,-1.66
+merged__alloc20__SL_4%___TP_8%_(conservative),Priority merge: Baseline then raw-tail,0.2,SL 4% / TP 8% (conservative),2021,120,77,43,64.17,2.52,2.019,61.22,-3.48
+merged__alloc20__SL_4%___TP_8%_(conservative),Priority merge: Baseline then raw-tail,0.2,SL 4% / TP 8% (conservative),2022,106,66,40,62.26,2.579,2.174,57.02,-4.1
+merged__alloc20__SL_4%___TP_8%_(conservative),Priority merge: Baseline then raw-tail,0.2,SL 4% / TP 8% (conservative),2023,118,77,41,65.25,2.561,2.113,63.07,-2.72
+merged__alloc20__SL_4%___TP_8%_(conservative),Priority merge: Baseline then raw-tail,0.2,SL 4% / TP 8% (conservative),2024,125,82,43,65.6,2.411,1.896,59.34,-5.23
+merged__alloc20__SL_4%___TP_8%_(conservative),Priority merge: Baseline then raw-tail,0.2,SL 4% / TP 8% (conservative),2025,98,57,41,58.16,2.147,1.637,37.09,-3.5
+merged__alloc20__SL_4%___TP_8%_(conservative),Priority merge: Baseline then raw-tail,0.2,SL 4% / TP 8% (conservative),2026,145,94,51,64.83,2.209,1.765,51.46,-5.11
+merged__alloc33__SL_5%___close_exit,Priority merge: Baseline then raw-tail,0.33,SL 5% / close exit,2020,78,67,11,85.9,7.601,4.093,181.25,-3.38
+merged__alloc33__SL_5%___close_exit,Priority merge: Baseline then raw-tail,0.33,SL 5% / close exit,2021,120,83,37,69.17,2.763,2.282,140.48,-6.43
+merged__alloc33__SL_5%___close_exit,Priority merge: Baseline then raw-tail,0.33,SL 5% / close exit,2022,106,67,39,63.21,2.325,1.999,89.54,-8.26
+merged__alloc33__SL_5%___close_exit,Priority merge: Baseline then raw-tail,0.33,SL 5% / close exit,2023,118,79,39,66.95,2.229,1.874,90.03,-6.13
+merged__alloc33__SL_5%___close_exit,Priority merge: Baseline then raw-tail,0.33,SL 5% / close exit,2024,125,87,38,69.6,2.329,1.894,106.99,-12.67
+merged__alloc33__SL_5%___close_exit,Priority merge: Baseline then raw-tail,0.33,SL 5% / close exit,2025,98,61,37,62.24,2.131,1.891,48.26,-3.59
+merged__alloc33__SL_5%___close_exit,Priority merge: Baseline then raw-tail,0.33,SL 5% / close exit,2026,145,100,45,68.97,1.522,2.15,31.39,-7.5
+merged__alloc33__SL_10%___close_exit,Priority merge: Baseline then raw-tail,0.33,SL 10% / close exit,2020,78,69,9,88.46,8.365,4.267,193.88,-4.66
+merged__alloc33__SL_10%___close_exit,Priority merge: Baseline then raw-tail,0.33,SL 10% / close exit,2021,120,89,31,74.17,3.877,2.791,191.56,-8.88
+merged__alloc33__SL_10%___close_exit,Priority merge: Baseline then raw-tail,0.33,SL 10% / close exit,2022,106,74,32,69.81,2.46,2.238,103.55,-13.04
+merged__alloc33__SL_10%___close_exit,Priority merge: Baseline then raw-tail,0.33,SL 10% / close exit,2023,118,87,31,73.73,1.985,1.951,80.09,-6.71
+merged__alloc33__SL_10%___close_exit,Priority merge: Baseline then raw-tail,0.33,SL 10% / close exit,2024,125,91,34,72.8,2.451,2.169,114.05,-15.97
+merged__alloc33__SL_10%___close_exit,Priority merge: Baseline then raw-tail,0.33,SL 10% / close exit,2025,98,64,34,65.31,2.068,2.007,39.99,-4.04
+merged__alloc33__SL_10%___close_exit,Priority merge: Baseline then raw-tail,0.33,SL 10% / close exit,2026,145,109,36,75.17,1.86,2.471,42.58,-9.17
+merged__alloc33__SL_4%___TP_8%_(conservative),Priority merge: Baseline then raw-tail,0.33,SL 4% / TP 8% (conservative),2020,78,64,14,82.05,6.709,4.006,174.93,-2.73
+merged__alloc33__SL_4%___TP_8%_(conservative),Priority merge: Baseline then raw-tail,0.33,SL 4% / TP 8% (conservative),2021,120,77,43,64.17,2.539,2.019,118.27,-5.69
+merged__alloc33__SL_4%___TP_8%_(conservative),Priority merge: Baseline then raw-tail,0.33,SL 4% / TP 8% (conservative),2022,106,66,40,62.26,2.561,2.174,100.74,-6.69
+merged__alloc33__SL_4%___TP_8%_(conservative),Priority merge: Baseline then raw-tail,0.33,SL 4% / TP 8% (conservative),2023,118,77,41,65.25,2.605,2.113,110.23,-4.25
+merged__alloc33__SL_4%___TP_8%_(conservative),Priority merge: Baseline then raw-tail,0.33,SL 4% / TP 8% (conservative),2024,125,82,43,65.6,2.4,1.896,105.61,-7.79
+merged__alloc33__SL_4%___TP_8%_(conservative),Priority merge: Baseline then raw-tail,0.33,SL 4% / TP 8% (conservative),2025,98,57,41,58.16,1.927,1.637,37.61,-4.27
+merged__alloc33__SL_4%___TP_8%_(conservative),Priority merge: Baseline then raw-tail,0.33,SL 4% / TP 8% (conservative),2026,145,94,51,64.83,1.556,1.765,29.67,-7.16

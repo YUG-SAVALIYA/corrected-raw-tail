@@ -1,0 +1,2 @@
+strategy,slippage_bps_per_side,total_return,cagr,annualized_volatility,sharpe,sortino,max_drawdown,calmar,win_rate,profit_factor,average_gross_return_per_trade,average_net_return_per_trade,number_of_trading_days,number_of_trades,turnover,zero_trade_day_pct
+hybrid_short,5.0,8.157154420460845,0.3896779694062509,0.15539250596287307,2.2349318326945866,1.4579248134210592,-0.09726902786925462,4.006187559826766,0.7055555555555556,2.3746893474650435,0.025480147007145723,0.019656040326154322,1665,360,86633770.17171022,0.8678678678678678

@@ -1,0 +1,8 @@
+key,model_portfolio,allocation_per_position,exit_rule,year,trades,positive,negative,win_rate_pct,profit_factor,avg_net_trade_pct,return_pct,max_drawdown_pct
+raw_tail__alloc20__SL_4%___TP_8%_(conservative),Corrected raw-tail q99.97,0.2,SL 4% / TP 8% (conservative),2020,0,0,0,,,,0.0,0.0
+raw_tail__alloc20__SL_4%___TP_8%_(conservative),Corrected raw-tail q99.97,0.2,SL 4% / TP 8% (conservative),2021,7,7,0,100.0,,6.794,9.88,0.0
+raw_tail__alloc20__SL_4%___TP_8%_(conservative),Corrected raw-tail q99.97,0.2,SL 4% / TP 8% (conservative),2022,50,33,17,66.0,2.631,2.188,23.93,-2.59
+raw_tail__alloc20__SL_4%___TP_8%_(conservative),Corrected raw-tail q99.97,0.2,SL 4% / TP 8% (conservative),2023,82,52,30,63.41,2.289,1.764,32.86,-2.72
+raw_tail__alloc20__SL_4%___TP_8%_(conservative),Corrected raw-tail q99.97,0.2,SL 4% / TP 8% (conservative),2024,63,46,17,73.02,3.271,2.352,33.92,-2.82
+raw_tail__alloc20__SL_4%___TP_8%_(conservative),Corrected raw-tail q99.97,0.2,SL 4% / TP 8% (conservative),2025,70,39,31,55.71,1.95,1.449,22.06,-2.98
+raw_tail__alloc20__SL_4%___TP_8%_(conservative),Corrected raw-tail q99.97,0.2,SL 4% / TP 8% (conservative),2026,67,42,25,62.69,2.142,1.559,22.84,-5.04

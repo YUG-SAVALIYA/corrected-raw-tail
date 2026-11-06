@@ -1,0 +1,53 @@
+# Long-only intraday cash-equity schedule. Exchange/broker/state-specific values
+# not fully evidenced for every historical day are labelled estimated and must be
+# replaced with the broker/venue schedule used for a claim-grade study.
+periods:
+  - effective_from: '2015-01-01'
+    effective_to: '2017-06-30'
+    brokerage_rate_per_side: 0.00030
+    exchange_transaction_rate_per_side: 0.0000325
+    sebi_rate_per_side: 0.0000015
+    gst_rate: 0.15
+    stt_sell_rate: 0.00025
+    stamp_buy_rate: 0.00003
+    status: estimated
+    notes: 'Pre-GST service-tax approximation; exchange and stamp-duty rate require venue/state verification.'
+  - effective_from: '2017-07-01'
+    effective_to: '2020-05-31'
+    brokerage_rate_per_side: 0.00030
+    exchange_transaction_rate_per_side: 0.0000325
+    sebi_rate_per_side: 0.0000015
+    gst_rate: 0.18
+    stt_sell_rate: 0.00025
+    stamp_buy_rate: 0.00003
+    status: estimated
+    notes: 'GST-era approximation; broker and state-specific components remain configurable.'
+  - effective_from: '2020-06-01'
+    effective_to: '2021-03-31'
+    brokerage_rate_per_side: 0.00030
+    exchange_transaction_rate_per_side: 0.0000345
+    sebi_rate_per_side: 0.0000005
+    gst_rate: 0.18
+    stt_sell_rate: 0.00025
+    stamp_buy_rate: 0.00003
+    status: estimated
+    notes: 'Includes temporary 50% SEBI turnover-fee relief; exchange-rate approximation.'
+  - effective_from: '2021-04-01'
+    effective_to: '2023-03-31'
+    brokerage_rate_per_side: 0.00030
+    exchange_transaction_rate_per_side: 0.0000345
+    sebi_rate_per_side: 0.0000010
+    gst_rate: 0.18
+    stt_sell_rate: 0.00025
+    stamp_buy_rate: 0.00003
+    status: estimated
+    notes: 'NSE announced a 2020 increase that was rolled back in March 2023; tier and broker dependence remains.'
+  - effective_from: '2023-04-01'
+    brokerage_rate_per_side: 0.00030
+    exchange_transaction_rate_per_side: 0.0000325
+    sebi_rate_per_side: 0.0000010
+    gst_rate: 0.18
+    stt_sell_rate: 0.00025
+    stamp_buy_rate: 0.00003
+    status: estimated
+    notes: 'Uses NSE first-tier cash-market rate published March 2023; exact broker pass-through is unknown.'

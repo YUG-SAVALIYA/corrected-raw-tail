@@ -1,0 +1,156 @@
+[
+  {
+    "fold": "2020",
+    "model": "hist_gradient_boosting",
+    "prediction_path": "D:\\RSI_SuperTrand\\rsi_supertrend_backtester_project\\trading_project\\artifacts\\nifty_hgb_direct_short_market_index_raw_tail_walkforward_2020_2026\\predictions\\hist_gradient_boosting_2020.parquet",
+    "artifact_path": "D:\\RSI_SuperTrand\\rsi_supertrend_backtester_project\\trading_project\\artifacts\\nifty_hgb_direct_short_market_index_raw_tail_walkforward_2020_2026\\models\\hist_gradient_boosting_2020.joblib",
+    "classification_target": "target_short_event",
+    "calibration_method": "sigmoid",
+    "calibration_comparison": {
+      "raw": {
+        "log_loss": 0.668566618107334,
+        "brier_score": 0.23903220517983922
+      },
+      "sigmoid": {
+        "log_loss": 0.6222476983772605,
+        "brier_score": 0.21612781781114135
+      },
+      "isotonic": {
+        "log_loss": 0.6232853884257982,
+        "brier_score": 0.2171484849381086
+      }
+    }
+  },
+  {
+    "fold": "2021",
+    "model": "hist_gradient_boosting",
+    "prediction_path": "D:\\RSI_SuperTrand\\rsi_supertrend_backtester_project\\trading_project\\artifacts\\nifty_hgb_direct_short_market_index_raw_tail_walkforward_2020_2026\\predictions\\hist_gradient_boosting_2021.parquet",
+    "artifact_path": "D:\\RSI_SuperTrand\\rsi_supertrend_backtester_project\\trading_project\\artifacts\\nifty_hgb_direct_short_market_index_raw_tail_walkforward_2020_2026\\models\\hist_gradient_boosting_2021.joblib",
+    "classification_target": "target_short_event",
+    "calibration_method": "isotonic",
+    "calibration_comparison": {
+      "raw": {
+        "log_loss": 0.6499714444793516,
+        "brier_score": 0.22983134510345798
+      },
+      "sigmoid": {
+        "log_loss": 0.6203585836134815,
+        "brier_score": 0.21558732817208096
+      },
+      "isotonic": {
+        "log_loss": 0.6197336109872645,
+        "brier_score": 0.21555832362597466
+      }
+    }
+  },
+  {
+    "fold": "2022",
+    "model": "hist_gradient_boosting",
+    "prediction_path": "D:\\RSI_SuperTrand\\rsi_supertrend_backtester_project\\trading_project\\artifacts\\nifty_hgb_direct_short_market_index_raw_tail_walkforward_2020_2026\\predictions\\hist_gradient_boosting_2022.parquet",
+    "artifact_path": "D:\\RSI_SuperTrand\\rsi_supertrend_backtester_project\\trading_project\\artifacts\\nifty_hgb_direct_short_market_index_raw_tail_walkforward_2020_2026\\models\\hist_gradient_boosting_2022.joblib",
+    "classification_target": "target_short_event",
+    "calibration_method": "isotonic",
+    "calibration_comparison": {
+      "raw": {
+        "log_loss": 0.6716100650603622,
+        "brier_score": 0.24000970291315613
+      },
+      "sigmoid": {
+        "log_loss": 0.6462770817092274,
+        "brier_score": 0.22758971177332724
+      },
+      "isotonic": {
+        "log_loss": 0.6458137111136955,
+        "brier_score": 0.22742905772998248
+      }
+    }
+  },
+  {
+    "fold": "2023",
+    "model": "hist_gradient_boosting",
+    "prediction_path": "D:\\RSI_SuperTrand\\rsi_supertrend_backtester_project\\trading_project\\artifacts\\nifty_hgb_direct_short_market_index_raw_tail_walkforward_2020_2026\\predictions\\hist_gradient_boosting_2023.parquet",
+    "artifact_path": "D:\\RSI_SuperTrand\\rsi_supertrend_backtester_project\\trading_project\\artifacts\\nifty_hgb_direct_short_market_index_raw_tail_walkforward_2020_2026\\models\\hist_gradient_boosting_2023.joblib",
+    "classification_target": "target_short_event",
+    "calibration_method": "sigmoid",
+    "calibration_comparison": {
+      "raw": {
+        "log_loss": 0.665086077409695,
+        "brier_score": 0.23699313758947432
+      },
+      "sigmoid": {
+        "log_loss": 0.6277975025558352,
+        "brier_score": 0.21832223933752848
+      },
+      "isotonic": {
+        "log_loss": 0.6281974564058567,
+        "brier_score": 0.2182333008826549
+      }
+    }
+  },
+  {
+    "fold": "2024",
+    "model": "hist_gradient_boosting",
+    "prediction_path": "D:\\RSI_SuperTrand\\rsi_supertrend_backtester_project\\trading_project\\artifacts\\nifty_hgb_direct_short_market_index_raw_tail_walkforward_2020_2026\\predictions\\hist_gradient_boosting_2024.parquet",
+    "artifact_path": "D:\\RSI_SuperTrand\\rsi_supertrend_backtester_project\\trading_project\\artifacts\\nifty_hgb_direct_short_market_index_raw_tail_walkforward_2020_2026\\models\\hist_gradient_boosting_2024.joblib",
+    "classification_target": "target_short_event",
+    "calibration_method": "sigmoid",
+    "calibration_comparison": {
+      "raw": {
+        "log_loss": 0.6285631304713473,
+        "brier_score": 0.21976251022270485
+      },
+      "sigmoid": {
+        "log_loss": 0.5839924154913433,
+        "brier_score": 0.19913551724107176
+      },
+      "isotonic": {
+        "log_loss": 0.584518986395333,
+        "brier_score": 0.1993441927371155
+      }
+    }
+  },
+  {
+    "fold": "2025",
+    "model": "hist_gradient_boosting",
+    "prediction_path": "D:\\RSI_SuperTrand\\rsi_supertrend_backtester_project\\trading_project\\artifacts\\nifty_hgb_direct_short_market_index_raw_tail_walkforward_2020_2026\\predictions\\hist_gradient_boosting_2025.parquet",
+    "artifact_path": "D:\\RSI_SuperTrand\\rsi_supertrend_backtester_project\\trading_project\\artifacts\\nifty_hgb_direct_short_market_index_raw_tail_walkforward_2020_2026\\models\\hist_gradient_boosting_2025.joblib",
+    "classification_target": "target_short_event",
+    "calibration_method": "isotonic",
+    "calibration_comparison": {
+      "raw": {
+        "log_loss": 0.6546447341725874,
+        "brier_score": 0.23208202606339293
+      },
+      "sigmoid": {
+        "log_loss": 0.6364688123872625,
+        "brier_score": 0.22268321430282306
+      },
+      "isotonic": {
+        "log_loss": 0.6358792669149204,
+        "brier_score": 0.22239115958441902
+      }
+    }
+  },
+  {
+    "fold": "2026",
+    "model": "hist_gradient_boosting",
+    "prediction_path": "D:\\RSI_SuperTrand\\rsi_supertrend_backtester_project\\trading_project\\artifacts\\nifty_hgb_direct_short_market_index_raw_tail_walkforward_2020_2026\\predictions\\hist_gradient_boosting_2026.parquet",
+    "artifact_path": "D:\\RSI_SuperTrand\\rsi_supertrend_backtester_project\\trading_project\\artifacts\\nifty_hgb_direct_short_market_index_raw_tail_walkforward_2020_2026\\models\\hist_gradient_boosting_2026.joblib",
+    "classification_target": "target_short_event",
+    "calibration_method": "isotonic",
+    "calibration_comparison": {
+      "raw": {
+        "log_loss": 0.6227986903196843,
+        "brier_score": 0.2178016642872629
+      },
+      "sigmoid": {
+        "log_loss": 0.5717622598294704,
+        "brier_score": 0.19406511447381572
+      },
+      "isotonic": {
+        "log_loss": 0.5708299963680773,
+        "brier_score": 0.19400192479999712
+      }
+    }
+  }
+]

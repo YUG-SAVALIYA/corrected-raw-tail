@@ -1,0 +1,26 @@
+﻿{
+  "release_name": "frozen_direct_short_hgb_2026_10_28",
+  "production_scorer": "models/hist_gradient_boosting_2026.joblib",
+  "strategy": "Direct short: probability that next-session open-to-close gross return <= -1.2%",
+  "prediction_timing": "Score after a completed daily candle; enter next session open; exit same session close unless hard stop is crossed.",
+  "historical_test_window": "2020-01-01 through 2026-10-16",
+  "training_recipe": "configs/training_recipe.yaml",
+  "short_probability_calibration_q9997": {
+    "2020": 0.6640000000,
+    "2021": 0.7828282828,
+    "2022": 0.7758620690,
+    "2023": 0.6260956175,
+    "2024": 0.6359126984,
+    "2025": 0.6407603642,
+    "2026": 0.6000000000
+  },
+  "live_2026_threshold": 0.6000000000,
+  "portfolio": {
+    "initial_capital_inr": 100000,
+    "max_positions": 3,
+    "max_allocation_per_stock": 0.33,
+    "max_signal_day_turnover_fraction": 0.02,
+    "hard_stop_loss_pct": 0.10
+  },
+  "execution_assumptions": "5 bps slippage per side; estimated fee schedule in configs/costs.yaml; no borrow, margin, short-availability, auction, or partial-fill simulation."
+}

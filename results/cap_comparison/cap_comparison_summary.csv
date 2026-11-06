@@ -1,0 +1,37 @@
+Model,Cap Variation,Allocation,Exit Rule,Trades,Positive Trades,Negative Trades,Win Rate (%),Total Return (%),CAGR (%),Max Drawdown (%),Sharpe,Profit Factor,Avg Net/Trade (%)
+Baseline q99.97,With 2% Turnover Cap,20%,SL 4% / TP 8% (conservative),558,372,186,66.67,1202.81,45.97,-5.42,3.738,2.721,2.36
+Baseline q99.97,Without Cap (Uncapped),20%,SL 4% / TP 8% (conservative),558,372,186,66.67,1239.92,46.58,-5.42,3.755,2.764,2.36
+Baseline q99.97,With 2% Turnover Cap,20%,SL 10% / close exit,558,423,135,75.81,2049.82,57.15,-9.88,4.113,3.514,2.852
+Baseline q99.97,Without Cap (Uncapped),20%,SL 10% / close exit,558,423,135,75.81,2200.14,58.72,-9.7,4.144,3.614,2.852
+Baseline q99.97,With 2% Turnover Cap,20%,SL 5% / close exit,558,394,164,70.61,1364.37,48.51,-6.91,3.714,2.815,2.48
+Baseline q99.97,Without Cap (Uncapped),20%,SL 5% / close exit,558,394,164,70.61,1425.13,49.4,-6.91,3.733,2.876,2.48
+Baseline q99.97,With 2% Turnover Cap,33%,SL 4% / TP 8% (conservative),558,372,186,66.67,4382.3,75.12,-9.16,3.556,2.431,2.36
+Baseline q99.97,Without Cap (Uncapped),33%,SL 4% / TP 8% (conservative),558,372,186,66.67,6851.36,86.81,-8.84,3.755,2.804,2.36
+Baseline q99.97,With 2% Turnover Cap,33%,SL 10% / close exit,558,423,135,75.81,7434.04,89.04,-15.97,3.769,2.833,2.852
+Baseline q99.97,Without Cap (Uncapped),33%,SL 10% / close exit,558,423,135,75.81,16704.57,112.76,-15.61,4.144,3.834,2.852
+Baseline q99.97,With 2% Turnover Cap,33%,SL 5% / close exit,558,394,164,70.61,4915.68,78.04,-10.83,3.477,2.436,2.48
+Baseline q99.97,Without Cap (Uncapped),33%,SL 5% / close exit,558,394,164,70.61,8466.47,92.65,-11.21,3.733,2.962,2.48
+Corrected raw-tail q99.97,With 2% Turnover Cap,20%,SL 4% / TP 8% (conservative),339,219,120,64.6,263.28,20.93,-5.04,2.478,2.363,1.934
+Corrected raw-tail q99.97,Without Cap (Uncapped),20%,SL 4% / TP 8% (conservative),339,219,120,64.6,263.28,20.93,-5.04,2.478,2.363,1.934
+Corrected raw-tail q99.97,With 2% Turnover Cap,20%,SL 10% / close exit,339,242,97,71.39,277.36,21.61,-6.14,2.183,2.359,2.002
+Corrected raw-tail q99.97,Without Cap (Uncapped),20%,SL 10% / close exit,339,242,97,71.39,277.36,21.61,-6.14,2.183,2.359,2.002
+Corrected raw-tail q99.97,With 2% Turnover Cap,20%,SL 5% / close exit,339,227,112,66.96,265.85,21.06,-6.19,2.302,2.323,1.95
+Corrected raw-tail q99.97,Without Cap (Uncapped),20%,SL 5% / close exit,339,227,112,66.96,265.85,21.06,-6.19,2.302,2.323,1.95
+Corrected raw-tail q99.97,With 2% Turnover Cap,33%,SL 4% / TP 8% (conservative),339,219,120,64.6,702.66,35.92,-8.22,2.464,2.276,1.934
+Corrected raw-tail q99.97,Without Cap (Uncapped),33%,SL 4% / TP 8% (conservative),339,219,120,64.6,721.66,36.39,-8.22,2.478,2.296,1.934
+Corrected raw-tail q99.97,With 2% Turnover Cap,33%,SL 10% / close exit,339,242,97,71.39,739.12,36.81,-10.03,2.17,2.335,2.002
+Corrected raw-tail q99.97,Without Cap (Uncapped),33%,SL 10% / close exit,339,242,97,71.39,767.33,37.48,-10.03,2.183,2.374,2.002
+Corrected raw-tail q99.97,With 2% Turnover Cap,33%,SL 5% / close exit,339,227,112,66.96,698.31,35.81,-10.09,2.284,2.25,1.95
+Corrected raw-tail q99.97,Without Cap (Uncapped),33%,SL 5% / close exit,339,227,112,66.96,728.06,36.54,-10.09,2.302,2.294,1.95
+Priority merge: Baseline then raw-tail,With 2% Turnover Cap,20%,SL 4% / TP 8% (conservative),790,517,273,65.44,2432.52,60.99,-5.23,4.075,2.34,2.137
+Priority merge: Baseline then raw-tail,Without Cap (Uncapped),20%,SL 4% / TP 8% (conservative),790,517,273,65.44,2674.61,63.17,-5.23,4.14,2.411,2.137
+Priority merge: Baseline then raw-tail,With 2% Turnover Cap,20%,SL 10% / close exit,790,583,207,73.8,3846.28,71.86,-10.12,4.176,2.725,2.483
+Priority merge: Baseline then raw-tail,Without Cap (Uncapped),20%,SL 10% / close exit,790,583,207,73.8,4625.29,76.48,-10.12,4.274,2.92,2.483
+Priority merge: Baseline then raw-tail,With 2% Turnover Cap,20%,SL 5% / close exit,790,544,246,68.86,2702.43,63.41,-8.46,3.963,2.391,2.228
+Priority merge: Baseline then raw-tail,Without Cap (Uncapped),20%,SL 5% / close exit,790,544,246,68.86,3081.46,66.49,-8.46,4.04,2.51,2.228
+Priority merge: Baseline then raw-tail,With 2% Turnover Cap,33%,SL 4% / TP 8% (conservative),790,517,273,65.44,9191.62,94.97,-8.43,3.759,1.987,2.137
+Priority merge: Baseline then raw-tail,Without Cap (Uncapped),33%,SL 4% / TP 8% (conservative),790,517,273,65.44,22664.61,122.49,-8.55,4.14,2.376,2.137
+Priority merge: Baseline then raw-tail,With 2% Turnover Cap,33%,SL 10% / close exit,790,583,207,73.8,13319.16,105.82,-15.97,3.737,2.12,2.483
+Priority merge: Baseline then raw-tail,Without Cap (Uncapped),33%,SL 10% / close exit,790,583,207,73.8,53858.47,152.66,-16.24,4.274,3.106,2.483
+Priority merge: Baseline then raw-tail,With 2% Turnover Cap,33%,SL 5% / close exit,790,544,246,68.86,9722.6,96.58,-12.67,3.602,1.948,2.228
+Priority merge: Baseline then raw-tail,Without Cap (Uncapped),33%,SL 5% / close exit,790,544,246,68.86,28215.79,129.76,-13.64,4.04,2.531,2.228

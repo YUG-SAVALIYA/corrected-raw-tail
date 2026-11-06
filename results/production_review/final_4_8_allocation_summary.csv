@@ -1,0 +1,3 @@
+allocation_per_position,Trades,Positive trades,Negative trades,Win rate (%),Sum gross trade returns (%),Sum net trade returns (%),Total return (%),CAGR (%),Max drawdown (%),Sharpe,Trade profit factor,Avg. net/trade (%),Same-day TP/SL collisions,TP/SL collision rate (%)
+0.2,790,517,273,65.44,2083.14,1687.84,2432.52,60.99,-5.23,4.075,2.34,2.137,15,1.9
+0.33,790,517,273,65.44,2083.14,1687.84,9191.62,94.97,-8.43,3.759,1.987,2.137,15,1.9

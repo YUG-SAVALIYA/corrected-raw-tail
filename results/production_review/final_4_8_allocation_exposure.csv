@@ -1,0 +1,3 @@
+allocation_per_position,liquidity_capped_trade_pct,mean_effective_allocation_per_trade_pct,median_effective_allocation_per_trade_pct,mean_gross_exposure_on_trade_days_pct,median_gross_exposure_on_trade_days_pct,daily_return_p05_pct,worst_daily_return_pct
+0.2,4.810126582278481,19.66132937807222,20.0,29.69875756917219,20.0,-0.831732165188079,-2.495196495564232
+0.33,21.518987341772153,28.878770480573685,33.0,43.62185215994878,33.0,-1.372358072560328,-4.1170742176809805

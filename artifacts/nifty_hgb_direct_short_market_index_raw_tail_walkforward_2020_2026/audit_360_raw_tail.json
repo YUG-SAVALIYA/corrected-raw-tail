@@ -1,0 +1,564 @@
+{
+  "audit_scope": "Corrected 98-feature raw-tail direct-short HGB model and its q99.97 backtest",
+  "checks_passed": 71,
+  "checks_failed": 0,
+  "fold_evidence": [
+    {
+      "fold": 2020,
+      "rows": 310971,
+      "raw_threshold": 0.8244717071785879,
+      "raw_threshold_ties": 0,
+      "calibrated_threshold_ties": 0,
+      "selected_at_raw_threshold": 1
+    },
+    {
+      "fold": 2021,
+      "rows": 332325,
+      "raw_threshold": 0.7914425944011373,
+      "raw_threshold_ties": 0,
+      "calibrated_threshold_ties": 16646,
+      "selected_at_raw_threshold": 17
+    },
+    {
+      "fold": 2022,
+      "rows": 359257,
+      "raw_threshold": 0.7887159831925183,
+      "raw_threshold_ties": 0,
+      "calibrated_threshold_ties": 16,
+      "selected_at_raw_threshold": 63
+    },
+    {
+      "fold": 2023,
+      "rows": 390713,
+      "raw_threshold": 0.7762539548046625,
+      "raw_threshold_ties": 0,
+      "calibrated_threshold_ties": 0,
+      "selected_at_raw_threshold": 306
+    },
+    {
+      "fold": 2024,
+      "rows": 423478,
+      "raw_threshold": 0.7744031897929835,
+      "raw_threshold_ties": 0,
+      "calibrated_threshold_ties": 0,
+      "selected_at_raw_threshold": 109
+    },
+    {
+      "fold": 2025,
+      "rows": 471800,
+      "raw_threshold": 0.7771354678664429,
+      "raw_threshold_ties": 0,
+      "calibrated_threshold_ties": 740,
+      "selected_at_raw_threshold": 153
+    },
+    {
+      "fold": 2026,
+      "rows": 376782,
+      "raw_threshold": 0.7799767851211148,
+      "raw_threshold_ties": 0,
+      "calibrated_threshold_ties": 535,
+      "selected_at_raw_threshold": 576
+    }
+  ],
+  "checks": [
+    {
+      "name": "configuration_target",
+      "status": "PASS",
+      "detail": "Direct-downside target is next-session open-to-close return <= -1.2%."
+    },
+    {
+      "name": "configuration_raw_tail",
+      "status": "PASS",
+      "detail": "Backtest selects on the continuous raw score, not calibrated isotonic plateaus."
+    },
+    {
+      "name": "feature_registry",
+      "status": "PASS",
+      "detail": "Feature registry has 98 unique features.",
+      "feature_count": 98
+    },
+    {
+      "name": "phase2_feature_count",
+      "status": "PASS",
+      "detail": "Phase 2 report agrees with registry and has usable rows.",
+      "feature_ready_rows": 3744507
+    },
+    {
+      "name": "normalized_data_hash",
+      "status": "PASS",
+      "detail": "The Phase 2 feature set was built from the current normalized OHLCV file.",
+      "expected": "145f8cc9191f79aa1f935781644cdf174b861a3119fb10018c2d518f7c8b02a0",
+      "actual": "145f8cc9191f79aa1f935781644cdf174b861a3119fb10018c2d518f7c8b02a0"
+    },
+    {
+      "name": "index_nifty50_available",
+      "status": "PASS",
+      "detail": "External index history exists and has sufficient rows.",
+      "rows": 2738,
+      "sha256": "b56638c906b97c887a0faeba75df983bd33a1cd2a3d52960d335b072862b0a79"
+    },
+    {
+      "name": "index_nifty50_duplicates",
+      "status": "PASS",
+      "detail": "No duplicate index dates after input sanitation.",
+      "duplicates": 0
+    },
+    {
+      "name": "index_nifty50_ohlc",
+      "status": "PASS",
+      "detail": "Index OHLC ordering is internally valid.",
+      "invalid_rows": 0,
+      "raw_rows": 2738
+    },
+    {
+      "name": "index_niftybank_available",
+      "status": "PASS",
+      "detail": "External index history exists and has sufficient rows.",
+      "rows": 2740,
+      "sha256": "38d3ea4dc8c33c462870efc51ddac8ca0f18382c90f96490094e98f463253038"
+    },
+    {
+      "name": "index_niftybank_duplicates",
+      "status": "PASS",
+      "detail": "No duplicate index dates after input sanitation.",
+      "duplicates": 0
+    },
+    {
+      "name": "index_niftybank_ohlc",
+      "status": "PASS",
+      "detail": "Index OHLC ordering is internally valid.",
+      "invalid_rows": 0,
+      "raw_rows": 2740
+    },
+    {
+      "name": "label_keys_unique",
+      "status": "PASS",
+      "detail": "There is exactly one label per symbol and signal date."
+    },
+    {
+      "name": "label_next_session_alignment",
+      "status": "PASS",
+      "detail": "Labels use the next actual market session, not a symbol's next observed row.",
+      "checked_rows": 4446575
+    },
+    {
+      "name": "fold_completeness",
+      "status": "PASS",
+      "detail": "One prediction file, model artifact, and manifest entry exists for every yearly walk-forward fold.",
+      "folds": [
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025",
+        "2026"
+      ]
+    },
+    {
+      "name": "fold_2020_keys",
+      "status": "PASS",
+      "detail": "Prediction keys are unique and remain within the assigned evaluation fold.",
+      "rows": 310971,
+      "key_unique": true,
+      "signal_min": "2020-01-01",
+      "signal_max": "2020-12-30"
+    },
+    {
+      "name": "fold_2020_probability_range",
+      "status": "PASS",
+      "detail": "Raw and calibrated probabilities are finite values in [0, 1]."
+    },
+    {
+      "name": "fold_2020_raw_threshold",
+      "status": "PASS",
+      "detail": "Raw q99.97 threshold is constant within the fold and does not expand into a material tie set.",
+      "threshold": 0.8244717071785879,
+      "raw_ties": 0,
+      "calibrated_ties": 0
+    },
+    {
+      "name": "fold_2020_short_orientation",
+      "status": "PASS",
+      "detail": "Shared calibrated probability is exactly 1 - direct short probability."
+    },
+    {
+      "name": "fold_2020_event_target",
+      "status": "PASS",
+      "detail": "Stored direct-short target equals target return <= -1.2% wherever the next-session bar exists.",
+      "unavailable_target_rows": 3503
+    },
+    {
+      "name": "fold_2020_label_lineage",
+      "status": "PASS",
+      "detail": "Prediction labels exactly match the Phase 2 label artifact.",
+      "checked_rows": 310971,
+      "mismatches": 0
+    },
+    {
+      "name": "fold_2020_artifact",
+      "status": "PASS",
+      "detail": "Model artifact uses the 98-feature order, direct-short target, and a strictly earlier training cutoff.",
+      "training_cutoff": "2019-12-31",
+      "feature_count": 98,
+      "calibration_method": "sigmoid"
+    },
+    {
+      "name": "fold_2021_keys",
+      "status": "PASS",
+      "detail": "Prediction keys are unique and remain within the assigned evaluation fold.",
+      "rows": 332325,
+      "key_unique": true,
+      "signal_min": "2021-01-01",
+      "signal_max": "2021-12-30"
+    },
+    {
+      "name": "fold_2021_probability_range",
+      "status": "PASS",
+      "detail": "Raw and calibrated probabilities are finite values in [0, 1]."
+    },
+    {
+      "name": "fold_2021_raw_threshold",
+      "status": "PASS",
+      "detail": "Raw q99.97 threshold is constant within the fold and does not expand into a material tie set.",
+      "threshold": 0.7914425944011373,
+      "raw_ties": 0,
+      "calibrated_ties": 16646
+    },
+    {
+      "name": "fold_2021_short_orientation",
+      "status": "PASS",
+      "detail": "Shared calibrated probability is exactly 1 - direct short probability."
+    },
+    {
+      "name": "fold_2021_event_target",
+      "status": "PASS",
+      "detail": "Stored direct-short target equals target return <= -1.2% wherever the next-session bar exists.",
+      "unavailable_target_rows": 1007
+    },
+    {
+      "name": "fold_2021_label_lineage",
+      "status": "PASS",
+      "detail": "Prediction labels exactly match the Phase 2 label artifact.",
+      "checked_rows": 332325,
+      "mismatches": 0
+    },
+    {
+      "name": "fold_2021_artifact",
+      "status": "PASS",
+      "detail": "Model artifact uses the 98-feature order, direct-short target, and a strictly earlier training cutoff.",
+      "training_cutoff": "2020-12-31",
+      "feature_count": 98,
+      "calibration_method": "isotonic"
+    },
+    {
+      "name": "fold_2022_keys",
+      "status": "PASS",
+      "detail": "Prediction keys are unique and remain within the assigned evaluation fold.",
+      "rows": 359257,
+      "key_unique": true,
+      "signal_min": "2022-01-03",
+      "signal_max": "2022-12-29"
+    },
+    {
+      "name": "fold_2022_probability_range",
+      "status": "PASS",
+      "detail": "Raw and calibrated probabilities are finite values in [0, 1]."
+    },
+    {
+      "name": "fold_2022_raw_threshold",
+      "status": "PASS",
+      "detail": "Raw q99.97 threshold is constant within the fold and does not expand into a material tie set.",
+      "threshold": 0.7887159831925183,
+      "raw_ties": 0,
+      "calibrated_ties": 16
+    },
+    {
+      "name": "fold_2022_short_orientation",
+      "status": "PASS",
+      "detail": "Shared calibrated probability is exactly 1 - direct short probability."
+    },
+    {
+      "name": "fold_2022_event_target",
+      "status": "PASS",
+      "detail": "Stored direct-short target equals target return <= -1.2% wherever the next-session bar exists.",
+      "unavailable_target_rows": 584
+    },
+    {
+      "name": "fold_2022_label_lineage",
+      "status": "PASS",
+      "detail": "Prediction labels exactly match the Phase 2 label artifact.",
+      "checked_rows": 359257,
+      "mismatches": 0
+    },
+    {
+      "name": "fold_2022_artifact",
+      "status": "PASS",
+      "detail": "Model artifact uses the 98-feature order, direct-short target, and a strictly earlier training cutoff.",
+      "training_cutoff": "2021-12-31",
+      "feature_count": 98,
+      "calibration_method": "isotonic"
+    },
+    {
+      "name": "fold_2023_keys",
+      "status": "PASS",
+      "detail": "Prediction keys are unique and remain within the assigned evaluation fold.",
+      "rows": 390713,
+      "key_unique": true,
+      "signal_min": "2023-01-02",
+      "signal_max": "2023-12-28"
+    },
+    {
+      "name": "fold_2023_probability_range",
+      "status": "PASS",
+      "detail": "Raw and calibrated probabilities are finite values in [0, 1]."
+    },
+    {
+      "name": "fold_2023_raw_threshold",
+      "status": "PASS",
+      "detail": "Raw q99.97 threshold is constant within the fold and does not expand into a material tie set.",
+      "threshold": 0.7762539548046625,
+      "raw_ties": 0,
+      "calibrated_ties": 0
+    },
+    {
+      "name": "fold_2023_short_orientation",
+      "status": "PASS",
+      "detail": "Shared calibrated probability is exactly 1 - direct short probability."
+    },
+    {
+      "name": "fold_2023_event_target",
+      "status": "PASS",
+      "detail": "Stored direct-short target equals target return <= -1.2% wherever the next-session bar exists.",
+      "unavailable_target_rows": 533
+    },
+    {
+      "name": "fold_2023_label_lineage",
+      "status": "PASS",
+      "detail": "Prediction labels exactly match the Phase 2 label artifact.",
+      "checked_rows": 390713,
+      "mismatches": 0
+    },
+    {
+      "name": "fold_2023_artifact",
+      "status": "PASS",
+      "detail": "Model artifact uses the 98-feature order, direct-short target, and a strictly earlier training cutoff.",
+      "training_cutoff": "2022-12-30",
+      "feature_count": 98,
+      "calibration_method": "sigmoid"
+    },
+    {
+      "name": "fold_2024_keys",
+      "status": "PASS",
+      "detail": "Prediction keys are unique and remain within the assigned evaluation fold.",
+      "rows": 423478,
+      "key_unique": true,
+      "signal_min": "2024-01-01",
+      "signal_max": "2024-12-30"
+    },
+    {
+      "name": "fold_2024_probability_range",
+      "status": "PASS",
+      "detail": "Raw and calibrated probabilities are finite values in [0, 1]."
+    },
+    {
+      "name": "fold_2024_raw_threshold",
+      "status": "PASS",
+      "detail": "Raw q99.97 threshold is constant within the fold and does not expand into a material tie set.",
+      "threshold": 0.7744031897929835,
+      "raw_ties": 0,
+      "calibrated_ties": 0
+    },
+    {
+      "name": "fold_2024_short_orientation",
+      "status": "PASS",
+      "detail": "Shared calibrated probability is exactly 1 - direct short probability."
+    },
+    {
+      "name": "fold_2024_event_target",
+      "status": "PASS",
+      "detail": "Stored direct-short target equals target return <= -1.2% wherever the next-session bar exists.",
+      "unavailable_target_rows": 403
+    },
+    {
+      "name": "fold_2024_label_lineage",
+      "status": "PASS",
+      "detail": "Prediction labels exactly match the Phase 2 label artifact.",
+      "checked_rows": 423478,
+      "mismatches": 0
+    },
+    {
+      "name": "fold_2024_artifact",
+      "status": "PASS",
+      "detail": "Model artifact uses the 98-feature order, direct-short target, and a strictly earlier training cutoff.",
+      "training_cutoff": "2023-12-29",
+      "feature_count": 98,
+      "calibration_method": "sigmoid"
+    },
+    {
+      "name": "fold_2025_keys",
+      "status": "PASS",
+      "detail": "Prediction keys are unique and remain within the assigned evaluation fold.",
+      "rows": 471800,
+      "key_unique": true,
+      "signal_min": "2025-01-01",
+      "signal_max": "2025-12-30"
+    },
+    {
+      "name": "fold_2025_probability_range",
+      "status": "PASS",
+      "detail": "Raw and calibrated probabilities are finite values in [0, 1]."
+    },
+    {
+      "name": "fold_2025_raw_threshold",
+      "status": "PASS",
+      "detail": "Raw q99.97 threshold is constant within the fold and does not expand into a material tie set.",
+      "threshold": 0.7771354678664429,
+      "raw_ties": 0,
+      "calibrated_ties": 740
+    },
+    {
+      "name": "fold_2025_short_orientation",
+      "status": "PASS",
+      "detail": "Shared calibrated probability is exactly 1 - direct short probability."
+    },
+    {
+      "name": "fold_2025_event_target",
+      "status": "PASS",
+      "detail": "Stored direct-short target equals target return <= -1.2% wherever the next-session bar exists.",
+      "unavailable_target_rows": 290
+    },
+    {
+      "name": "fold_2025_label_lineage",
+      "status": "PASS",
+      "detail": "Prediction labels exactly match the Phase 2 label artifact.",
+      "checked_rows": 471800,
+      "mismatches": 0
+    },
+    {
+      "name": "fold_2025_artifact",
+      "status": "PASS",
+      "detail": "Model artifact uses the 98-feature order, direct-short target, and a strictly earlier training cutoff.",
+      "training_cutoff": "2024-12-31",
+      "feature_count": 98,
+      "calibration_method": "isotonic"
+    },
+    {
+      "name": "fold_2026_keys",
+      "status": "PASS",
+      "detail": "Prediction keys are unique and remain within the assigned evaluation fold.",
+      "rows": 376782,
+      "key_unique": true,
+      "signal_min": "2026-01-01",
+      "signal_max": "2026-09-24"
+    },
+    {
+      "name": "fold_2026_probability_range",
+      "status": "PASS",
+      "detail": "Raw and calibrated probabilities are finite values in [0, 1]."
+    },
+    {
+      "name": "fold_2026_raw_threshold",
+      "status": "PASS",
+      "detail": "Raw q99.97 threshold is constant within the fold and does not expand into a material tie set.",
+      "threshold": 0.7799767851211148,
+      "raw_ties": 0,
+      "calibrated_ties": 535
+    },
+    {
+      "name": "fold_2026_short_orientation",
+      "status": "PASS",
+      "detail": "Shared calibrated probability is exactly 1 - direct short probability."
+    },
+    {
+      "name": "fold_2026_event_target",
+      "status": "PASS",
+      "detail": "Stored direct-short target equals target return <= -1.2% wherever the next-session bar exists.",
+      "unavailable_target_rows": 163
+    },
+    {
+      "name": "fold_2026_label_lineage",
+      "status": "PASS",
+      "detail": "Prediction labels exactly match the Phase 2 label artifact.",
+      "checked_rows": 376782,
+      "mismatches": 0
+    },
+    {
+      "name": "fold_2026_artifact",
+      "status": "PASS",
+      "detail": "Model artifact uses the 98-feature order, direct-short target, and a strictly earlier training cutoff.",
+      "training_cutoff": "2025-12-31",
+      "feature_count": 98,
+      "calibration_method": "isotonic"
+    },
+    {
+      "name": "artifact_score_sample_coverage",
+      "status": "PASS",
+      "detail": "All deterministic prediction samples were found in the feature artifact.",
+      "requested": 21,
+      "found": 21
+    },
+    {
+      "name": "market_index_feature_reproduction",
+      "status": "PASS",
+      "detail": "All 28 Nifty 50/Nifty Bank feature values for deterministic samples reproduce directly from the supplied index files.",
+      "checked_values": 588,
+      "mismatches": 0
+    },
+    {
+      "name": "artifact_score_reproduction",
+      "status": "PASS",
+      "detail": "Re-scoring 21 deterministic saved feature rows reproduces raw and calibrated probabilities exactly.",
+      "samples": 21,
+      "failures": 0
+    },
+    {
+      "name": "backtest_candidate_join",
+      "status": "PASS",
+      "detail": "Every prediction with an available next-session target bar joined to signal-day liquidity and executable target-day OHLC; non-executable rows are excluded.",
+      "predictions": 2665326,
+      "executable_predictions": 2658843,
+      "candidates": 2658843
+    },
+    {
+      "name": "selection_rule_raw_tail",
+      "status": "PASS",
+      "detail": "Eligibility independently reconstructed from raw score, historical q99.97 threshold, volatility, and prior-day liquidity.",
+      "eligible_rows": 547,
+      "by_year": {
+        "2021": 12,
+        "2022": 54,
+        "2023": 184,
+        "2024": 80,
+        "2025": 80,
+        "2026": 137
+      }
+    },
+    {
+      "name": "backtest_trade_reproduction",
+      "status": "PASS",
+      "detail": "Independent simulation reproduces every stored trade identity, exit, sizing, return, and cost.",
+      "reproduced_trades": 360,
+      "stored_trades": 360
+    },
+    {
+      "name": "backtest_equity_reproduction",
+      "status": "PASS",
+      "detail": "Independent simulation reproduces the daily equity curve.",
+      "daily_rows": 1665
+    },
+    {
+      "name": "backtest_summary_reproduction",
+      "status": "PASS",
+      "detail": "Independent performance summary matches the stored result.",
+      "total_return": 8.157154420460845,
+      "max_drawdown": -0.09726902786925462,
+      "trades": 360
+    }
+  ],
+  "limitations": [
+    "This audit verifies artifact consistency, causal date boundaries, and deterministic reproduction. It cannot prove that the original vendor OHLCV/index files are economically correct or point-in-time constituent-clean.",
+    "Daily OHLC cannot establish intraday order sequence, stop fill quality, spread, market impact, stock borrow, or short-sale availability.",
+    "The 2020-2026 walk-forward sequence is historical model-selection evidence, not an untouched final validation set after all later strategy and risk-rule decisions."
+  ]
+}

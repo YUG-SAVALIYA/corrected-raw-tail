@@ -1,0 +1,21 @@
+# Strict raw-score tail selection fixes the 2021 isotonic tie expansion. The
+# threshold is still calculated only from each prior calibration block.
+predictions_glob: ../artifacts/retrained_nifty_hgb_direct_short_market_index_raw_tail_walkforward_2020_2026/predictions/hist_gradient_boosting_*.parquet
+normalized_path: ../artifacts/nifty_phase1/normalized_ohlcv.parquet
+fee_schedule_path: costs.yaml
+output_dir: ../artifacts/retrained_nifty_hgb_direct_short_market_index_raw_tail_q9997_2020_2026/backtests
+strategies: [hybrid_short]
+slippage_bps_per_side: [5.0]
+initial_capital: 100000
+max_positions: 3
+max_allocation_per_stock: 0.33
+max_turnover_fraction_per_stock: 0.02
+min_signal_day_turnover: 5000000
+min_short_red_probability: 0.0
+short_signal_score_column: raw_short_probability
+short_probability_threshold_column: short_raw_probability_calibration_q9997
+require_short_return_prediction: false
+min_short_volatility_20: 0.036
+short_volatility_rank_penalty: 0.0
+hard_stop_loss_pct: 0.10
+

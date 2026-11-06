@@ -1,0 +1,70 @@
+{
+  "phase": 5,
+  "fee_schedule": [
+    {
+      "effective_from": "2015-01-01",
+      "effective_to": "2017-06-30",
+      "brokerage_rate_per_side": 0.0003,
+      "exchange_transaction_rate_per_side": 3.25e-05,
+      "sebi_rate_per_side": 1.5e-06,
+      "gst_rate": 0.15,
+      "stt_sell_rate": 0.00025,
+      "stamp_buy_rate": 3e-05,
+      "status": "estimated",
+      "notes": "Pre-GST service-tax approximation; exchange and stamp-duty rate require venue/state verification."
+    },
+    {
+      "effective_from": "2017-07-01",
+      "effective_to": "2020-05-31",
+      "brokerage_rate_per_side": 0.0003,
+      "exchange_transaction_rate_per_side": 3.25e-05,
+      "sebi_rate_per_side": 1.5e-06,
+      "gst_rate": 0.18,
+      "stt_sell_rate": 0.00025,
+      "stamp_buy_rate": 3e-05,
+      "status": "estimated",
+      "notes": "GST-era approximation; broker and state-specific components remain configurable."
+    },
+    {
+      "effective_from": "2020-06-01",
+      "effective_to": "2021-03-31",
+      "brokerage_rate_per_side": 0.0003,
+      "exchange_transaction_rate_per_side": 3.45e-05,
+      "sebi_rate_per_side": 5e-07,
+      "gst_rate": 0.18,
+      "stt_sell_rate": 0.00025,
+      "stamp_buy_rate": 3e-05,
+      "status": "estimated",
+      "notes": "Includes temporary 50% SEBI turnover-fee relief; exchange-rate approximation."
+    },
+    {
+      "effective_from": "2021-04-01",
+      "effective_to": "2023-03-31",
+      "brokerage_rate_per_side": 0.0003,
+      "exchange_transaction_rate_per_side": 3.45e-05,
+      "sebi_rate_per_side": 1e-06,
+      "gst_rate": 0.18,
+      "stt_sell_rate": 0.00025,
+      "stamp_buy_rate": 3e-05,
+      "status": "estimated",
+      "notes": "NSE announced a 2020 increase that was rolled back in March 2023; tier and broker dependence remains."
+    },
+    {
+      "effective_from": "2023-04-01",
+      "effective_to": null,
+      "brokerage_rate_per_side": 0.0003,
+      "exchange_transaction_rate_per_side": 3.25e-05,
+      "sebi_rate_per_side": 1e-06,
+      "gst_rate": 0.18,
+      "stt_sell_rate": 0.00025,
+      "stamp_buy_rate": 3e-05,
+      "status": "estimated",
+      "notes": "Uses NSE first-tier cash-market rate published March 2023; exact broker pass-through is unknown."
+    }
+  ],
+  "limitations": [
+    "Costs are explicitly marked estimated where broker, venue-tier, state stamp-duty, or historical source evidence is incomplete.",
+    "Daily OHLCV cannot establish opening-auction fills, spreads, market impact, or intraday order sequencing.",
+    "Short simulations are intraday-only, reserve the configured notional allocation, use the same estimated cash-equity cost schedule, and exclude borrow, margin financing, auction, and short-sale availability effects."
+  ]
+}
